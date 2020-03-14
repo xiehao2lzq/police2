@@ -1,0 +1,167 @@
+//物业管理提示框
+.table2 .el-dialog__body {
+  padding: 0px 45px !important;
+}
+
+.table2 .el-table__body-wrapper {
+  //background: #f5f9fa;
+}
+
+/* .tab-box {
+  .el-dialog__body {
+    height: 895px;
+    padding: 0 20px;
+    overflow-y: auto;
+  }
+} */
+
+.table3 {
+  .el-tabs {
+    //width: min-content
+  }
+
+  .el-tabs__item {
+    color: #fff;
+  }
+
+  .el-tabs__nav-wrap::after {
+    background-color: transparent;
+  }
+
+  .el-tabs__item.is-active {
+    color: #3BA9E6;
+  }
+
+  .el-table__body-wrapper {
+    //background: #f5f9fc;
+  }
+
+  .el-pagination {
+    text-align: right;
+  }
+
+  tbody tr td {
+    // background: #E0EDF9;
+  }
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.left-text {
+  .el-input__inner {
+    text-align: left;
+    width: 280px;
+  }
+}
+
+.search-btn {
+  float: right;
+
+  .el-button {
+    padding: 8px 25px;
+  }
+}
+
+.pop-view {
+
+  .el-dialog__wrapper .el-form-item__label {
+    color: #fff;
+  }
+
+  .el-dialog {
+    background: $box-color;
+
+    .el-input__inner,
+    .el-textarea__inner {
+      @include inner-style
+    }
+
+    .el-form-item__label {
+      color: #fff;
+    }
+
+    .el-button--default {
+      background: #999;
+      border-color: #999;
+
+      &:hover {
+        color: #fff;
+        border-color: #999;
+      }
+    }
+  }
+
+  .el-dialog__title {
+    color: #3BA9E6 !important;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .el-dialog__wrapper .el-form-item {
+    display: block;
+  }
+
+  .el-dialog__wrapper .el-input__inner {
+    width: 280px;
+    @include inner-style
+  }
+
+  .el-dialog__body {
+    padding: 50px 45px 0px !important;
+    color: #fff;
+  }
+
+  .el-dialog__footer {
+    padding: 60px 20px 30px;
+    text-align: center;
+  }
+
+  .el-button {
+    padding: 12px 40px;
+  }
+}
+
+.police-room {
+  .el-dialog {
+    width: 625px;
+    margin-top: 350px!important;
+    background: #163D97;
+    border-radius: 4px;
+    .el-textarea__inner {
+      @include inner-style
+    }
+    .el-form-item__label{
+      color: #fff;
+    }
+    .el-button--default{
+      background: #999;
+      border-color: #999;
+      &:hover{
+        color:#fff;
+        border-color: #999;
+      }
+    }
+  }
+
+  .el-textarea__inner {
+    min-height: 132px !important;
+  }
+
+  .el-dialog__footer {
+    text-align: center;
+
+    p {
+      color: #fff;
+      text-align: right;
+      padding-right: 20px;
+    }
+  }
+
+  .el-dialog__title {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(59, 169, 230, 1);
+  }
+}

@@ -1,0 +1,21 @@
+export default{
+   url:"56.35.130.2",
+   successMsg:[],//成功提示http://47.103.36.248/
+   errorMsg:[],//错误提示
+   selectedArr:[],//切换小区
+   selectedValue:"",
+   wsUrl:"ws://56.35.130.2:9010/homePageMessage", 
+   wsUrl1:"ws://56.35.130.2:9010/personInOut",
+   wsUrl2:"ws://56.35.130.2:9010/carInOut",
+   popList:[],
+   onceLogin:true,
+   peopleList:[],//实时人员感知列表
+   carList:[],//
+   animation:true,
+   check:"小区",
+   homeOrVideo:true,//切换房屋和监控的
+   videoShow:false,//控制视频组件
+   videoUrl:"",
+   leftBoxHouseInfo:[],//地图二级界面左侧信息
+   leftBoxMonitoringInfo:[],
+} 
