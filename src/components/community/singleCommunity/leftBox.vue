@@ -569,7 +569,7 @@ export default {
   position: absolute;
   margin-top: 10px;
   margin-left: 10px;
-  z-index: 100;
+  z-index: 10000;
 }
 .hide {
   width: 30px;
